@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base href="https://github.com/houjian2547/ai-nav" />
-    <title>全球AI网站汇总导航 39个大类，997个AI工具</title>
+    <title>全球AI网站汇总导航 39大类，997个工具</title>
     <link rel="canonical" href="https://github.com/houjian2547/ai-nav">
     <meta name="keywords" content="全球AI网站最全汇总导航-收录近千个AI相关的网站列表，不定时更新">
     <meta name="description" content="全球AI网站最全汇总导航-39个大类，997个AI工具">
@@ -31,13 +31,13 @@
     <!-- FB Open Graph -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://github.com/houjian2547/ai-nav">
-    <meta property="og:title" content="全球AI网站汇总导航 39个大类，997个AI工具">
+    <meta property="og:title" content="全球AI网站汇总导航 39大类，997个工具">
     <meta property="og:description" content="全球AI网站最全汇总导航-39个大类，997个AI工具">
     <meta property="og:image" content="https://avatars.githubusercontent.com/u/91052735?s&#x3D;200&amp;v&#x3D;4">
-    <meta property="og:site_name" content="全球AI网站汇总导航 39个大类，997个AI工具">
+    <meta property="og:site_name" content="全球AI网站汇总导航 39大类，997个工具">
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="全球AI网站汇总导航 39个大类，997个AI工具">
+    <meta name="twitter:title" content="全球AI网站汇总导航 39大类，997个工具">
     <meta name="twitter:description" content="全球AI网站最全汇总导航-39个大类，997个AI工具">
     <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/91052735?s&#x3D;200&amp;v&#x3D;4">
     <style>
@@ -69,7 +69,7 @@
                     <!-- logo -->
                     <div class="logo">
                         <a href="https://github.com/houjian2547/ai-nav" class="logo-expanded">
-                            <h1>全球AI网站汇总导航 39个大类，997个AI工具</h1>
+                            <h1>全球AI网站汇总导航 39大类，997个工具</h1>
                         </a>
                     </div>
                     <div class="mobile-menu-toggle visible-xs">
@@ -16566,6 +16566,12 @@
         $("a.smooth").click(function(ev) {
             ev.preventDefault();
 
+            // 更新菜单激活状态
+            $("#main-menu li").each(function() {
+                $(this).removeClass("active");
+            });
+            $(this).parent("li").addClass("active");
+
             var offset = $(".mobile-menu-toggle").is(":visible") ? 90 : 25;
 
             public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
@@ -16576,20 +16582,9 @@
                 duration: 500,
                 easing: "swing"
             });
+            
+            return false;
         });
-        return false;
-    });
-
-    var href = "";
-    var pos = 0;
-    $("a.smooth").click(function(e) {
-        $("#main-menu li").each(function() {
-            $(this).removeClass("active");
-        });
-        $(this).parent("li").addClass("active");
-        e.preventDefault();
-        href = $(this).attr("href");
-        pos = $(href).position().top - 30;
     });
 
     // 卡片点击
