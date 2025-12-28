@@ -312,6 +312,12 @@
         $("a.smooth").click(function(ev) {
             ev.preventDefault();
 
+            // 更新菜单激活状态
+            $("#main-menu li").each(function() {
+                $(this).removeClass("active");
+            });
+            $(this).parent("li").addClass("active");
+
             var offset = $(".mobile-menu-toggle").is(":visible") ? 90 : 25;
 
             public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
@@ -322,20 +328,9 @@
                 duration: 500,
                 easing: "swing"
             });
+            
+            return false;
         });
-        return false;
-    });
-
-    var href = "";
-    var pos = 0;
-    $("a.smooth").click(function(e) {
-        $("#main-menu li").each(function() {
-            $(this).removeClass("active");
-        });
-        $(this).parent("li").addClass("active");
-        e.preventDefault();
-        href = $(this).attr("href");
-        pos = $(href).position().top - 30;
     });
 
     // 卡片点击
