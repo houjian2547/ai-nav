@@ -271,7 +271,7 @@ categories:
     description: 通过清晰、引人注目和真实的写作准确表达您的意思。
     tags: AI写作工具
 - category: 2.AI绘画生成-文生图
-  icon: linecons-picture
+  icon: linecons-photo
   links:
   - title: 绘创AI
     url: https://www.origins.chat/?v=1649040074144268290
@@ -2685,7 +2685,7 @@ categories:
     description: Rephrase.ai 的 deep tech generative AI 技术为商业通信创造专业品质的视频创意。只需将文本脚本作为输入，就可以用一个人的单个实景镜头来呈现无数的视频变体。
     tags: AI数字虚拟人
 - category: 21.AI游戏应用
-  icon: linecons-food
+  icon: linecons-star
   links:
   - title: Ludo AI
     url: https://ludo.ai/
@@ -3014,7 +3014,7 @@ categories:
     description: Coin Identifier Coin Snap是一款功能强大的移动应用程序，它利用人工智能驱动的图像识别技术在几秒钟内准确识别任何硬币。
     tags: AI教育助理
 - category: 23.AI学习平台
-  icon: linecons-book
+  icon: linecons-bulb
   links:
   - title: 飞桨AI Studio
     url: https://aistudio.baidu.com/
@@ -3267,7 +3267,7 @@ categories:
     description: 阿里云AI依托阿里顶尖的算法技术，结合阿里云可靠和灵活的云计算基础设施和平台服务，帮助企业简化IT框架、实现商业价值、加速数智化转型。阿里云数十项AI能力，稳定、易用、能力突出，是AI技术应用、开发的不二之选。
     tags: AI开源平台
 - category: 26.AI辅助编程
-  icon: linecons-data
+  icon: linecons-params
   links:
   - title: OpenGPT
     url: https://open-gpt.app/
@@ -3797,7 +3797,7 @@ categories:
     description: 在不到3分钟的时间内训练你自...
     tags: AI低(无)代码编程
 - category: 30.AI-SQL数据库
-  icon: linecons-data
+  icon: linecons-stack
   links:
   - title: AIHelperBot
     url: https://aihelperbot.com/
@@ -4318,7 +4318,7 @@ categories:
     description: Midjourney 是一个独立的研究实验室，致力于探索新的思维方式并扩展人类的想象力。我们是一个小型的自筹资金团队，专注于设计、人类基础设施和人工智能。
     tags: AI科研机构
 - category: 33.AI生命科学
-  icon: linecons-heart
+  icon: linecons-lab
   links:
   - title: 医真AI+
     url: http://aistore.yizhen.cn/yizhen-aistore/index.jsp
