@@ -1,4 +1,5 @@
-title: 全球AI网站最全汇总导航-39个大类，997个AI工具
+title: 全球AI网站汇总导航
+       39个大类，997个AI工具
 keywords: 全球AI网站最全汇总导航-收录近千个AI相关的网站列表，不定时更新
 description: 全球AI网站最全汇总导航-39个大类，997个AI工具
 url: https://github.com/houjian2547/ai-nav
@@ -16,7 +17,7 @@ friendship_links_url: https://geneasy.github.io/links/
 #   url: page2/
 categories:
 - category: 1.AI写作工具
-  icon: linecons-pen
+  icon: linecons-pencil
   links:
   - title: Monica
     url: https://monica.im/
@@ -270,7 +271,7 @@ categories:
     description: 通过清晰、引人注目和真实的写作准确表达您的意思。
     tags: AI写作工具
 - category: 2.AI绘画生成-文生图
-  icon: linecons-photo
+  icon: linecons-picture
   links:
   - title: 绘创AI
     url: https://www.origins.chat/?v=1649040074144268290
@@ -474,7 +475,7 @@ categories:
     description: Civitai是一个在线平台，人们可以很容易地分享和发现人工智能艺术创作的资源。用户可以上传和分享经过训练的模型，以生成特定风格的艺术，或者浏览和下载其他用户创建的模型。Civitai还为AI艺术家提供了一个充满活力和支持性的社区，用户可以在那里交流想法和分享他们的经验。
     tags: AI绘画生成-文生图
 - category: 3.AI聊天机器人
-  icon: linecons-comment
+  icon: linecons-bubble
   links:
   - title: 二狗问答
     url: https://2dog.51mskd.com/chat
@@ -573,7 +574,7 @@ categories:
     description: 我们希望改进人们发现和共享信息的方式，我们是一个小型的跨学科团队，决心为世界带来新技术和有用的产品。
     tags: AI聊天机器人
 - category: 4.AI办公工具
-  icon: linecons-desktop
+  icon: linecons-display
   links:
   - title: 集智魔方AI BOX
     url: http://www.chatbox.cool/#/home
@@ -1026,7 +1027,7 @@ categories:
     description: 人类应得的真相
     tags: AI内容检测器
 - category: 7.AI智能翻译
-  icon: linecons-globe
+  icon: linecons-world
   links:
   - title: TranSmart腾讯交互翻译
     url: https://transmart.qq.com/zh-CN/index
@@ -1766,7 +1767,7 @@ categories:
     description: Soundful 使创作者只需单击一个按钮即可生成免版税曲目。Soundful 音乐的音质如此丰富，你不会相信它是用 AI 制作的。但是，不要相信我们的话。试一试！
     tags: AI音乐制作
 - category: 14.AI图像设计
-  icon: linecons-paintbrush
+  icon: linecons-pen
   links:
   - title: 神采
     url: https://www.promeai.com/
@@ -2684,7 +2685,7 @@ categories:
     description: Rephrase.ai 的 deep tech generative AI 技术为商业通信创造专业品质的视频创意。只需将文本脚本作为输入，就可以用一个人的单个实景镜头来呈现无数的视频变体。
     tags: AI数字虚拟人
 - category: 21.AI游戏应用
-  icon: linecons-game
+  icon: linecons-food
   links:
   - title: Ludo AI
     url: https://ludo.ai/
@@ -3013,7 +3014,7 @@ categories:
     description: Coin Identifier Coin Snap是一款功能强大的移动应用程序，它利用人工智能驱动的图像识别技术在几秒钟内准确识别任何硬币。
     tags: AI教育助理
 - category: 23.AI学习平台
-  icon: linecons-graduation-cap
+  icon: linecons-book
   links:
   - title: 飞桨AI Studio
     url: https://aistudio.baidu.com/
@@ -3091,7 +3092,7 @@ categories:
     description: 奠烦Python学习课
     tags: AI学习平台
 - category: 24.AI开发者社区
-  icon: linecons-users
+  icon: linecons-user
   links:
   - title: 飞桨PaddlePaddle开发者社区
     url: https://www.paddlepaddle.org.cn/developercommunity
@@ -3266,7 +3267,7 @@ categories:
     description: 阿里云AI依托阿里顶尖的算法技术，结合阿里云可靠和灵活的云计算基础设施和平台服务，帮助企业简化IT框架、实现商业价值、加速数智化转型。阿里云数十项AI能力，稳定、易用、能力突出，是AI技术应用、开发的不二之选。
     tags: AI开源平台
 - category: 26.AI辅助编程
-  icon: linecons-code
+  icon: linecons-data
   links:
   - title: OpenGPT
     url: https://open-gpt.app/
@@ -3796,7 +3797,7 @@ categories:
     description: 在不到3分钟的时间内训练你自...
     tags: AI低(无)代码编程
 - category: 30.AI-SQL数据库
-  icon: linecons-database
+  icon: linecons-data
   links:
   - title: AIHelperBot
     url: https://aihelperbot.com/
@@ -4317,7 +4318,7 @@ categories:
     description: Midjourney 是一个独立的研究实验室，致力于探索新的思维方式并扩展人类的想象力。我们是一个小型的自筹资金团队，专注于设计、人类基础设施和人工智能。
     tags: AI科研机构
 - category: 33.AI生命科学
-  icon: linecons-leaf
+  icon: linecons-heart
   links:
   - title: 医真AI+
     url: http://aistore.yizhen.cn/yizhen-aistore/index.jsp
@@ -4897,7 +4898,7 @@ categories:
     description: 威斯康星大学麦迪逊分校（University of Wisconsin-Madison，简称:UW-Madison）创建于1848年，位于美国威斯康星州首府麦迪逊，是一所公立研究型大学，该校是威斯康星大学系统的旗舰学府，也是美国大学协会和十大联盟创始成员，被誉为公立常春藤大学。
     tags: AI专业全球大学TOP
 - category: 37.AI专业中国大学TOP
-  icon: linecons-school
+  icon: linecons-study
   links:
   - title: 电子科技大学计算机科学与工程学院
     url: https://www.scse.uestc.edu.cn/index.htm
