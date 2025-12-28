@@ -209,7 +209,7 @@
             </nav>
             {{#*inline "tagPartial"}}
             <!-- {{category}} -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="{{category}}"></i>{{category}}</h4>
+            <h4 class="text-gray" id="{{category}}"><i class="linecons-tag" style="margin-right: 7px;"></i>{{category}}</h4>
             <div class="row">
                 {{#each links}}
                 <div class="col-sm-5">
@@ -275,11 +275,6 @@
          const observer = lozad();
          observer.observe();
 
-         // 图片加载失败时使用默认图标
-         $(document).on('error', 'img.lozad', function() {
-             $(this).attr('src', 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40"%3E%3Crect fill="%23e0e0e0" width="40" height="40"/%3E%3Ctext x="50%25" y="50%25" text-anchor="middle" dy=".3em" fill="%23999" font-size="16"%3E?%3C/text%3E%3C/svg%3E');
-         });
-
         $(document).on('click', '.has-sub', function(){
             var _this = $(this)
             if(!$(this).hasClass('expanded')) {
@@ -312,12 +307,6 @@
         $("a.smooth").click(function(ev) {
             ev.preventDefault();
 
-            // 更新菜单激活状态
-            $("#main-menu li").each(function() {
-                $(this).removeClass("active");
-            });
-            $(this).parent("li").addClass("active");
-
             var offset = $(".mobile-menu-toggle").is(":visible") ? 90 : 25;
 
             public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
@@ -328,9 +317,20 @@
                 duration: 500,
                 easing: "swing"
             });
-            
-            return false;
         });
+        return false;
+    });
+
+    var href = "";
+    var pos = 0;
+    $("a.smooth").click(function(e) {
+        $("#main-menu li").each(function() {
+            $(this).removeClass("active");
+        });
+        $(this).parent("li").addClass("active");
+        e.preventDefault();
+        href = $(this).attr("href");
+        pos = $(href).position().top - 30;
     });
 
     // 卡片点击
