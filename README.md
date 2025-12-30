@@ -1,10 +1,15 @@
-# 网址导航（静态页面通用模板）
+# 全球AI网址导航，点击可直接跳转
+# 直接访问地址： houjian2547.github.io/ai-nav/
+# 部署到cloudflare访问地址（需要tizi）： https://global-ai-list.houjian-java.workers.dev/
 
-<https://geneasy.github.io/nav/>
-
+```
+参考模板： <https://geneasy.github.io/nav/>
 这是一个通用的网址导航模板，任何类型的网站都可以拿去使用。
-
 此网址导航页面是使用 [GenEasy](https://github.com/geneasy/geneasy) 文档生成工具 + [WebStack](https://github.com/WebStackPage/WebStackPage.github.io) 模板创建的静态页面，托管在 GitHub Pages 服务器上面。
+
+AI网址来源： 文件navigation.md
+
+```
 
 当修改 `links.yml` 文件里的内容时，**GitHub Actions** 会自动更新 HTML 文件。不需要服务器，不需要数据库。
 
