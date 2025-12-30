@@ -37,6 +37,7 @@
     <!-- 预连接图片服务器，加速图片加载 -->
     <link rel="preconnect" href="https://api.aitags.cn">
     <link rel="dns-prefetch" href="https://api.aitags.cn">
+    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/css/fonts/linecons/css/linecons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/css/fonts/fontawesome/css/font-awesome.min.css">
@@ -225,7 +226,7 @@
             <h4 class="text-gray" id="{{category}}"><i class="linecons-tag" style="margin-right: 7px;"></i>{{category}}</h4>
             <div class="row">
                 {{#each links}}
-                <div class="col-sm-5">
+                <div class="col-sm-2">
                     <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="{{#if display_url}}{{{display_url}}}{{else}}{{{url}}}{{/if}}">
                         <div class="xe-comment-entry">
                             <a href="{{url}}" class="xe-user-img" target="_blank">
@@ -235,7 +236,7 @@
                                 <a href="{{url}}" class="xe-user-name overflowClip_1" target="_blank">
                                     <strong>{{title}}</strong>
                                 </a>
-                                <p class="overflowClip_2">{{description}}</p>
+                                <p class="overflowClip_1">{{description}}</p>
                                 {{#if tags}}<p class="overflowClip_2">#{{join (split tags ',') ' #'}}</p>{{/if}}
                             </div>
                         </div>
